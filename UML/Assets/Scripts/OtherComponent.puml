@@ -1,6 +1,0 @@
-@startuml
-class OtherComponent {
-}
-MonoBehaviour <|-- OtherComponent
-OtherComponent --> "ExampleComponent" ExampleComponent
-@enduml

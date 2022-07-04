@@ -7,10 +7,4 @@ abstract class BaseAction {
     + <<virtual>> GetActionPointCost() : int
 }
 MonoBehaviour <|-- BaseAction
-class MoveAction {
-    + <<override>> TakeAction(gridPosition:GridPosition, onActionComplete:Action) : void
-    + <<override>> GetValidActionGridPositionList() : List<GridPosition>
-    + <<override>> GetActionName() : string
-}
-BaseAction <|-- MoveAction
 @enduml
